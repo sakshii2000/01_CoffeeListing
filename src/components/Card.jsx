@@ -42,7 +42,7 @@ function Card() {
         className="flex
       ">
         <div
-          className={`p-1 px-2.5 tracking-wide text-[#FEF7EE] rounded-lg ${
+          className={`p-1 px-2.5 tracking-wide cursor-pointer text-[#FEF7EE] rounded-lg ${
             avail ? "" : "bg-[#6F757C]"
           } mr-2 font-semibold font-dmsans`}
           onClick={() => {
@@ -51,7 +51,7 @@ function Card() {
           All Products
         </div>
         <div
-          className={`p-1 px-2.5 text-[#FEF7EE] rounded-lg font-semibold font-dmsans tracking-wide ${
+          className={`p-1 px-2.5 text-[#FEF7EE] rounded-lg font-semibold font-dmsans cursor-pointer tracking-wide ${
             avail ? "bg-[#6F757C]" : ""
           }`}
           onClick={() => {
