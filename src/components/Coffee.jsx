@@ -11,23 +11,20 @@ function Coffee({
   isAvail
 }) {
   return (
-    <div
-      className={`p-6 mb-3.5 lg:w-72 xl:w-80 ${
-        isAvail && !available ? "hidden" : ""
-      }`}>
+    <div className={`py-6 mb-3.5  ${isAvail && !available ? "hidden" : ""}`}>
       {popular && (
-        <div className="float-left absolute m-2 bg-[#F6C768] text-[#111315] text-[10px] font-bold py-0.5 tracking-wide rounded-full px-2">
+        <div className="float-left absolute m-2 bg-[#F6C768] text-[#111315] text-[10px] font-bold py-0.5  rounded-full px-2">
           Popular
         </div>
       )}
       <img
-        className="rounded-xl "
+        className="rounded-xl lg:w-full"
         src={image}
         alt="image"
       />
       <div className="flex mx-auto justify-between mt-3 mb-1.5">
         <h3 className="text-lg font-semibold">{name}</h3>
-        <div className="rounded-md bg-[#BEE3CC]  tracking-wide text-[#111315] text-sm font-semibold mt-1 items-center flex px-2">
+        <div className="rounded-md bg-[#BEE3CC]   text-[#111315] text-sm  mt-1 items-center flex px-2">
           {price}
         </div>
       </div>

@@ -22,7 +22,7 @@ function Card() {
   }, []);
 
   return (
-    <div className="absolute bg-[#1b1d1f] flex flex-col xl:w-5/6 justify-center items-center  mx-auto lg:px-12 z-20 left-0 right-0 mt-32 lg:w-2/3 w-[59%] rounded-xl py-16 px-7 shadow-2xl lg:py-20 overflow-hidden">
+    <div className="absolute bg-[#1b1d1f] flex flex-col xl:w-5/6 justify-center items-center  mx-auto lg:px-12 z-20 left-0 right-0 mt-36 xl:mt-44 lg:w-2/3 w-[59%] rounded-xl py-16 px-7 shadow-2xl lg:py-20 overflow-hidden">
       <div className="flex flex-col items-center">
         <img
           className="float-right absolute xl:right-72 xl:top-4 -z-10 lg:right-24 lg:top-9 -right-16 top-4 "
@@ -32,7 +32,7 @@ function Card() {
         <h1 className="text-[#FEF7EE] font-dmsans text-[32px] font-bold">
           Our Collection
         </h1>
-        <p className="text-[#6F757C] font-dmsans mt-2 mb-4 text-center xl:w-[52%] lg:w-[85%]  font-semibold">
+        <p className="text-[#6F757C] font-dmsans mt-2 mb-4 text-center xl:w-[55%] lg:w-[85%]  font-semibold">
           Introducing our Coffee Collection, a selection of unique coffees from
           different roast types and origins, expertly roasted in small batches
           and shipped fresh weekly.
@@ -42,7 +42,7 @@ function Card() {
         className="flex
       ">
         <div
-          className={`p-1 px-2.5 tracking-wide cursor-pointer text-[#FEF7EE] rounded-lg ${
+          className={`p-1 px-2.5  cursor-pointer text-[#FEF7EE] rounded-lg ${
             avail ? "" : "bg-[#6F757C]"
           } mr-2 font-semibold font-dmsans`}
           onClick={() => {
@@ -51,7 +51,7 @@ function Card() {
           All Products
         </div>
         <div
-          className={`p-1 px-2.5 text-[#FEF7EE] rounded-lg font-semibold font-dmsans cursor-pointer tracking-wide ${
+          className={`p-1 px-2.5 text-[#FEF7EE] rounded-lg font-semibold font-dmsans cursor-pointer ${
             avail ? "bg-[#6F757C]" : ""
           }`}
           onClick={() => {
@@ -62,7 +62,7 @@ function Card() {
       </div>
       <div className="pb-5"></div>
       <div></div>
-      <div className="flex text-[#FEF7EE] font-dmsans flex-col lg:flex-row lg:justify-between lg:flex-wrap">
+      <div className="flex text-[#FEF7EE] font-dmsans flex-col lg:flex-row lg:justify-around lg:flex-wrap xl:w-[92%]">
         {data.map((coffee) => (
           <Coffee
             key={coffee.id}

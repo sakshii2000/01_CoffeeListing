@@ -4,7 +4,7 @@ function Header() {
   return (
     <div>
       <img
-        className="w-full h-60 object-cover absolute"
+        className="w-full xl:h-[20rem] lg:h-72 h-60  absolute"
         src="./images/bg-cafe.jpg"
         alt="image"
       />
