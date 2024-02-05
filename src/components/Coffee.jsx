@@ -11,7 +11,10 @@ function Coffee({
   isAvail
 }) {
   return (
-    <div className={`py-6 mb-3.5  ${isAvail && !available ? "hidden" : ""}`}>
+    <div
+      className={`py-6 mb-3.5 xl:w-1/3 xl:px-5 ${
+        isAvail && !available ? "hidden" : ""
+      }`}>
       {popular && (
         <div className="float-left absolute m-2 bg-[#F6C768] text-[#111315] text-[10px] font-bold py-0.5  rounded-full px-2">
           Popular

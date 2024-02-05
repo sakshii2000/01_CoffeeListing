@@ -62,7 +62,7 @@ function Card() {
       </div>
       <div className="pb-5"></div>
       <div></div>
-      <div className="flex text-[#FEF7EE] font-dmsans flex-col lg:flex-row lg:justify-around lg:flex-wrap xl:w-[92%]">
+      <div className="flex text-[#FEF7EE] font-dmsans flex-col lg:flex-row lg:justify-around lg:flex-wrap xl:w-[92%] ">
         {data.map((coffee) => (
           <Coffee
             key={coffee.id}
