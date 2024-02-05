@@ -24,7 +24,7 @@ function Coffee({
       />
       <div className="flex mx-auto justify-between mt-3 mb-1.5">
         <h3 className="text-lg font-semibold">{name}</h3>
-        <div className="rounded-md bg-[#BEE3CC]   text-[#111315] text-sm  mt-1 items-center flex px-2">
+        <div className="rounded-md bg-[#BEE3CC]  font-semibold text-[#111315] text-sm  mt-1 items-center flex px-2">
           {price}
         </div>
       </div>

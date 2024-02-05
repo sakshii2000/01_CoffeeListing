@@ -22,7 +22,7 @@ function Card() {
   }, []);
 
   return (
-    <div className="absolute bg-[#1b1d1f] flex flex-col xl:w-5/6 justify-center items-center  mx-auto lg:px-12 z-20 left-0 right-0 mt-36 xl:mt-44 lg:w-2/3 w-[59%] rounded-xl py-16 px-7 shadow-2xl lg:py-20 overflow-hidden">
+    <div className="absolute bg-[#1b1d1f] flex flex-col xl:w-5/6 justify-center items-center  mx-auto lg:px-12 z-20 left-0 right-0 mt-36 xl:mt-40 lg:w-2/3 w-[59%] rounded-xl py-16 px-7 shadow-2xl lg:py-20 overflow-hidden">
       <div className="flex flex-col items-center">
         <img
           className="float-right absolute xl:right-72 xl:top-4 -z-10 lg:right-24 lg:top-9 -right-16 top-4 "
